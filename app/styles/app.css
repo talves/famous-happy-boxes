@@ -1,0 +1,32 @@
+html {
+  background: #fff;
+}
+
+.backfaceVisibility {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+.github-banner {
+  z-index: 20;
+  color: white;
+  .under-banner {
+    z-index: 19;
+  }
+  pointer-events: auto;
+}
+.github-banner a, .github-banner a:hover {
+  font: 700 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+  /* Set the layout properties */
+  //display: inline-block;
+  padding: 8px 0;
+  /* Add "stitching" effect */
+  border-width: 1px 0;
+  border-style: dotted;
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, 0.7);
+}

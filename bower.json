@@ -1,0 +1,32 @@
+{
+  "name": "famous-happy-boxes",
+  "description": "Just a proof of the physics engine in famous.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/talves/famous-happy-boxes",
+  "authors": [{
+    "name": "talves",
+    "url": "http://github.com/talves/"
+  }],
+  "main": "app/index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "famo.us"
+  ],
+  "license": "ISC",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.11",
+    "almond": "~0.2.9",
+    "famous-polyfills": "git+https://github.com/Famous/polyfills.git#0.1.1",
+    "famous": "~0.2.1"
+  }
+}
