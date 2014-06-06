@@ -1,7 +1,7 @@
 #HappyBoxes ([Demo Here](http://goo.gl/NqGFPs))
 > Just a Simple test of the physics engine in [Famo.us](http://famo.us/).
 
-[![Build Status](https://travis-ci.org/talves/happyboxes.svg?branch=master)](https://travis-ci.org/talves/happyboxes) [![Dependency Status](https://david-dm.org/talves/happyboxes.svg)](https://david-dm.org/talves/happyboxes) [![devDependency Status](https://david-dm.org/talves/happyboxes/dev-status.svg)](https://david-dm.org/talves/happyboxes#info=devDependencies)
+[![Build Status](https://travis-ci.org/talves/famous-happy-boxes.svg?branch=master)](https://travis-ci.org/talves/famous-happy-boxes) [![Dependency Status](https://david-dm.org/talves/famous-happy-boxes.svg)](https://david-dm.org/talves/famous-happy-boxes) [![devDependency Status](https://david-dm.org/talves/famous-happy-boxes/dev-status.svg)](https://david-dm.org/talves/famous-happy-boxes#info=devDependencies)
 
 ##Dependencies
 Developed for modern browsers on desktop.  Will run on some mobile phones.
