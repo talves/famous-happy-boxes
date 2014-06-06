@@ -22,7 +22,6 @@ html {
   text-decoration: none;
   text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
   /* Set the layout properties */
-  //display: inline-block;
   padding: 8px 0;
   /* Add "stitching" effect */
   border-width: 1px 0;

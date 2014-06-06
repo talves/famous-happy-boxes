@@ -33,10 +33,10 @@ define(function(require, exports, module) {
 
   function _addHeader() {
     var banner = new GitHubBanner({
-      size: [100,100],
+      size: [100, 100],
       message: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fork me on GitHub&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
       account: 'talves',
-      repo: 'happyboxes',
+      repo: 'famous-happy-boxes',
       height: 50
     });
     this.add(banner);
@@ -53,6 +53,10 @@ define(function(require, exports, module) {
     });
     header.setContent('Drag the square box around to put objects in motion!');
     this.add(headerModifier).add(header);
+  }
+  function addBodyTransform() {
+    gravity.applyForce(this);
+    return this.getTransform();
   }
 
   function _addMolecules() {
@@ -74,8 +78,8 @@ define(function(require, exports, module) {
       });
       if (Random.integer(0, 1)) {
         molecule.setContent('content/images/3alves_logo.png');
-      } 
-      else 
+      }
+      else
       {
         molecule.setContent('content/images/famous_logo.png');
       }
@@ -90,10 +94,7 @@ define(function(require, exports, module) {
       this.moleculeBodies.push(molecule.body);
 
       molecule.state = new Modifier({origin: [0.5, 0.5]});
-      molecule.state.transformFrom(function() {
-        gravity.applyForce(this);
-        return this.getTransform();
-      }.bind(molecule.body));
+      molecule.state.transformFrom(addBodyTransform.bind(molecule.body));
 
       this._add(molecule.state).add(molecule);
 
