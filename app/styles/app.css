@@ -10,9 +10,6 @@ html {
 .github-banner {
   z-index: 20;
   color: white;
-  .under-banner {
-    z-index: 19;
-  }
   pointer-events: auto;
 }
 .github-banner a, .github-banner a:hover {
