@@ -9,7 +9,7 @@ define(function(require, exports, module) {
   var Force = require('famous/physics/forces/Force');
   var Collision = require('famous/physics/constraints/Collision');
   var Wall = require('famous/physics/constraints/Wall');
-  var GitHubBanner = require('views/GitHubBanner');
+  var GitHubBanner = require('adarta/widgets/GitHubBanner');
 
   var Random = require('famous/math/Random');
 
