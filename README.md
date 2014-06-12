@@ -3,6 +3,9 @@
 
 [![Build Status](https://travis-ci.org/talves/famous-happy-boxes.svg?branch=master)](https://travis-ci.org/talves/famous-happy-boxes) [![Dependency Status](https://david-dm.org/talves/famous-happy-boxes.svg)](https://david-dm.org/talves/famous-happy-boxes) [![devDependency Status](https://david-dm.org/talves/famous-happy-boxes/dev-status.svg)](https://david-dm.org/talves/famous-happy-boxes#info=devDependencies)
 
+##Inspiration
+I was inspired to create this from a [gist](https://gist.github.com/john45traver/0b45745857091ac89033) created by [John Traver](https://github.com/john45traver)
+
 ##Dependencies
 Developed for modern browsers on desktop.  Will run on some mobile phones.
 
