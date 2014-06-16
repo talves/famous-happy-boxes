@@ -16,7 +16,7 @@ module.exports = function (grunt) {
       }
     },
     js: {
-      files: ['<%= config.app %>/src/**/**.js'],
+      files: ['<%= config.app %>/src/**/**.js','<%= config.app %>/lib/**/**/**.js'],
       tasks: ['lint'],
       options: {
         spawn: false,

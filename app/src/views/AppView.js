@@ -33,14 +33,15 @@ define(function(require, exports, module) {
 
   function _addHeader() {
     var banner = new GitHubBanner({
-      size: [100, 100],
+      size: [200, 40],
       message: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fork me on GitHub&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
       account: 'talves',
       repo: 'famous-happy-boxes',
-      height: 50
+      position: GitHubBanner.RIGHT_TOP,
+      classes: ['github-banner']
     });
     this.add(banner);
-
+    
     var headerModifier = new Modifier({
       origin: [1, 0]
     });
